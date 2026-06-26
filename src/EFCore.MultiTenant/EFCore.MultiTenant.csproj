@@ -45,6 +45,6 @@
           Pack="true"
           PackagePath="analyzers/dotnet/cs"
           Visible="false" />
-    <None Include="build\EFCore.MultiTenant.props" Pack="true" PackagePath="build\" />
+    <None Include="..\..\build\EFCore.MultiTenant.props" Pack="true" PackagePath="build\" />
   </ItemGroup>
 </Project>
