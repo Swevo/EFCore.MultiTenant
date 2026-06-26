@@ -11,7 +11,7 @@
     <NoWarn>$(NoWarn);NU5017;NU5128;RS2008</NoWarn>
 
     <PackageId>Swevo.EFCore.MultiTenant</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2026 Justin Bannister</Copyright>
     <Description>Compile-time multi-tenancy for EF Core. [Tenant] on a partial class generates TenantId, ITenantEntity, a SaveChangesInterceptor that stamps new rows, and AddTenantQueryFilters() for automatic row-level isolation. Zero reflection, AOT-safe.</Description>
