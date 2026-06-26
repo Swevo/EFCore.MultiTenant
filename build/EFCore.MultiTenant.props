@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <EFCoreMultiTenantDll>$(MSBuildThisFileDirectory)..\analyzers\dotnet\cs\EFCore.MultiTenant.dll</EFCoreMultiTenantDll>
+  </PropertyGroup>
+  <ItemGroup Condition="Exists('$(EFCoreMultiTenantDll)')">
+    <Analyzer Include="$(EFCoreMultiTenantDll)" />
+  </ItemGroup>
+</Project>
