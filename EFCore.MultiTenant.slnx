@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EFCore.MultiTenant/EFCore.MultiTenant.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EFCore.MultiTenant.Tests/EFCore.MultiTenant.Tests.csproj" />
+  </Folder>
+</Solution>
