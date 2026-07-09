@@ -1,8 +1,9 @@
 # Swevo.EFCore.MultiTenant
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.MultiTenant
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.EFCore.MultiTenant.svg)](https://www.nuget.org/packages/Swevo.EFCore.MultiTenant).svg)](https://www.nuget.org/packages/Swevo.EFCore.MultiTenant)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.MultiTenant.svg)](https://www.nuget.org/packages/Swevo.EFCore.MultiTenant)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.EFCore.MultiTenant.svg)](https://www.nuget.org/packages/Swevo.EFCore.MultiTenant)
 [![CI](https://github.com/Swevo/EFCore.MultiTenant/actions/workflows/ci.yml/badge.svg)](https://github.com/Swevo/EFCore.MultiTenant/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Compile-time multi-tenancy for EF Core. Stamp a `[Tenant]` attribute on any entity and the source generator wires up `TenantId`, a save interceptor, and global query filters automatically.
 
